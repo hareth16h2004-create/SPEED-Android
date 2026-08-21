@@ -1,0 +1,15 @@
+import android.content.Context
+import android.content.Intent
+import android.widget.Toast
+import androidx.compose.foundation.layout.*
+import androidx.compose.material3.*
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+
+private const val YALLA_LUDO_PACKAGE = "com.yalla.ludo"
+
+fun boostYallaLudo(context: Context) {
+    // وضع SPEED BOOST داخل LUDO
+    Toast.makeText(context, "تشغيل SPEED BOOST في Yalla Ludo", Toast.LENGTH_SHORT).show()
+}
